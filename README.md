@@ -20,7 +20,7 @@ Para construir el proyecto, ejecuta el siguiente comando en la raíz del proyect
 
 ./gradlew build
 
-Ejecutar ScriptSQL_PostgreSQL.sql en base de datos PostgreSQL
+Ejecutar ScriptSQL_PostgreSQL.sql en base de datos PostgreSQL ubicado en la carpeta Misc/ScriptSQL_PostgreSQL.sql
 
 Ejecutar el proyecto localmente
 Para ejecutar el proyecto localmente, usa el siguiente comando:
@@ -61,7 +61,7 @@ POST /transactionRefund
 PUT /transactionRefund/{id}
 DELETE /transactionRefund/{id}
 
-* Nota: Se adjunta Collection de Postman con Endpoints listos para su ejecución 
+* Nota: Se adjunta Collection de Postman con Endpoints listos para su ejecución ubicado en la carpeta Misc/TenpoBackend.postman_collection.json
 
 Tests
 Para ejecutar los tests, usa el siguiente comando:
