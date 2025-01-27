@@ -32,9 +32,22 @@ services:
     depends_on:
       - postgres
 
+  frontend:
+    build:
+      context: ./tenpo-pt-docker
+      dockerfile: Dockerfile
+    container_name: tenpo-pt-frontend
+    ports:
+      - "3000:80"
+    environment:
+      REACT_APP_BACKEND_URL: http://backend:8080
+    networks:
+      - app-network
+
 volumes:
   postgres_data:
 
 networks:
   app-network:
     driver: bridge
+    name: app-network
