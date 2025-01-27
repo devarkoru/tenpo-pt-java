@@ -9,6 +9,8 @@ Este es un proyecto backend desarrollado con Spring Boot y Gradle. El proyecto i
 - Java 21
 - Gradle
 - Docker
+- PostgreSQL
+- Postman
 
 ## Configuración
 
@@ -17,6 +19,8 @@ Este es un proyecto backend desarrollado con Spring Boot y Gradle. El proyecto i
 Para construir el proyecto, ejecuta el siguiente comando en la raíz del proyecto:
 
 ./gradlew build
+
+Ejecutar ScriptSQL_PostgreSQL.sql en base de datos PostgreSQL
 
 Ejecutar el proyecto localmente
 Para ejecutar el proyecto localmente, usa el siguiente comando:
@@ -56,6 +60,8 @@ GET /transactionRefund/{id}
 POST /transactionRefund
 PUT /transactionRefund/{id}
 DELETE /transactionRefund/{id}
+
+* Nota: Se adjunta Collection de Postman con Endpoints listos para su ejecución 
 
 Tests
 Para ejecutar los tests, usa el siguiente comando:
