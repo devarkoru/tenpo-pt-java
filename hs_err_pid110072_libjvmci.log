@@ -1,0 +1,423 @@
+Fatal error: java.lang.OutOfMemoryError: Could not allocate an aligned heap chunk
+
+Printing instructions (ip=0x00007ffe6b1a6354):
+  0x00007ffe6b1a6254: 0x00 0x90 0xeb 0xda 0x48 0x89 0x44 0x24 0x20 0x66 0x66 0x90 0xe9 0x56 0xfd 0xff
+  0x00007ffe6b1a6264: 0xff 0x48 0x8b 0x54 0x24 0x28 0xe8 0x11 0xf5 0x05 0x00 0x90 0xe9 0x87 0xfd 0xff
+  0x00007ffe6b1a6274: 0xff 0x48 0x8b 0xc8 0xe9 0x78 0xfe 0xff 0xff 0x48 0x8b 0x44 0x24 0x40 0x4c 0x8b
+  0x00007ffe6b1a6284: 0xc0 0xe9 0xda 0xfe 0xff 0xff 0xe8 0xb1 0xf3 0x0a 0x00 0x90 0xeb 0xab 0xba 0x01
+  0x00007ffe6b1a6294: 0x00 0x00 0x00 0x41 0xb8 0x01 0x00 0x00 0x00 0x66 0x66 0x90 0xe8 0x3b 0xf6 0x0a
+  0x00007ffe6b1a62a4: 0x00 0x90 0xeb Fatal error: 0xjava.lang.OutOfMemoryError8a:  Could not allocate an aligned heap chunk0x
+e9
+ 0xf1 0xfe 0xffPrinting instructions (ip= 0x0x0ff0 00x0e97ffe6b1a6354 ):0x
+ec   0x0xfe0 00x0ff0 7ffe6b1a62540x:ff  0x0x0e90  0x0xe790
+  0x eb0x 00x0da0 00x7ffe6b1a62b448:  0xfe 0x0x89ff  0x0x44ff  0x0x24e9  0x0x20e2  0x0x66fe  0x0x66ff  0x0x90ff  0x0xe90 f0x 560x 1f0x fd0x 400x ff0x
+0 0  0x0x0e90 00x0d97ffe6b1a6264 :0x fe0x ff0x ff0x
+48   0x0x8b0 00x0540 7ffe6b1a62c40x:24  0x0xff28  0x0xe9e8  0x0xd411  0x0xfef5  0x0xff0 50x ff0x 00x0e9  0x0x90cf  0x0xe9fe  0x0xff 870x ff0x fd0x e90x ff0x
+ca   0x0xfe0 00x0ff0 7ffe6b1a62740x:ff 
+0x ff  0x0x0480 00x08b7ffe6b1a62d4 :0x c80x e90x e90x c50x 780x fe0x fe0x ff0x ff0x ff0x ff0x e90x 480x c00x 8b0x fe0x 440x ff0x 240x ff0x 400x 660x 4c0x 900x 8b0x
+e9   0x0xb90 00x0fe0 7ffe6b1a62840x:ff 
+0x c0  0x0x0e90 00x0da7ffe6b1a62e4 : 0x0xfffe 0xe9 0xb4 0xfe 0xff 0xff 0x ff0x e90x ff0x af0x e80x fe0x b10x ff0x f30x ff0x 00xae9  0x0x0aa0  0x0xfe90  0x0xffeb  0x0xffab 0x
+ba   0x0x0010
+00 7ffe6b1a62f4 :0x 00x0e90 00x7ffe6b1a6294a5:  0x0xfe0 00x ff0x 00x0ff  0x0x0e80  0x0xc241  0x0x64b8  0x0xfe0 10x ff0x 00x090  0x0x0cc0  0x0x550 00x 480x 660x 8b0x 660x ec0x
+90   0x0xe80 00x03b0 7ffe6b1a63040x:f6  0x0x480a 
+0x  830x0 00x0ec0 7ffe6b1a62a40x:20  0x0x004c  0x0x9089  0x0xeb4c  0x0x8a24  0x0xe910  0x0xf14c  0x0xfe89  0x0xff44  0x0xff24  0x0xe90 80x ec0x 480x fe0x 890x
+ff   0x0xff0 00x0e90 7ffe6b1a63140x:e7 
+0x 54  0x0x0240 00x0187ffe6b1a62b4 :0x e80x fe0x e40x ff0x 830x ff0x 00xae9  0x0x0e20  0x0xfe90  0x0xff 0xff41 0x 0xc70 f0x 870x 0x1f10  0x0x400 10x 00x00 00x e90x 000x
+d9   0x0xfe0 00x00ff7ffe6b1a6324
+:   0x0x0010 00x007ffe6b1a62c40:  0x0x00ff  0x0x0e90  0x0xd4f0  0x0xfe83  0x0xff0 40x ff0x 240xe9  0x0xcf0 00x fe0x 490x ff0x c70x ff0x 470x e90x 00x8ca  0x0x0fe1  0x0xff00  0x0x00ff
+
+    0x0x00000007ffe6b1a63340:7ffe6b1a62d4 :0x 000x e90x 410x c50x c7 0x0xfe87  0x0xff0 c 0x0xff0 10x e90x 0x0c00  0x0xfe0 00x ff0x fe0x ff0x fe0x 0x66fe  0x0x907e  0x0xe948  0x0xb98b  0x0xfe54  0x0xff24
+
+    0x0x00000007ffe6b1a63440: 7ffe6b1a62e40x:18  0x0xff4c  0x0xe98b  0x0xb444  0x0xfe24  0x0xff0 80xff  0x0xe94c  0x0xaf8b  0x0xfe4c  0x0xff24  0x0xff10  0x0xe9e8  0x0x8caa  0x0xfbfe  0x0xffff  0x0xffff
+
+>  0x 00x0000007ffe6b1a63540:7ffe6b1a62f4 :0x 900x e90x cc0x a50x cc0x fe0x cc0x ff0x cc 0xcc0x ff0x cc0xe8 0x c20x cc0x 640x cc0x fe0x cc0x ff0x cc0x 900x cc0x cc0x 550x 550x 480x 480x 8b0x8b  0x0xecec
+
+    0x0x00000007ffe6b1a63040:7ffe6b1a6364 0x:48  0x0x4883  0x0x83ec  0x0x20ec  0x0x4c30  0x890x 480x4c  0x0x2489  0x0x1054  0x0x4c24  0x28 0x0x4989 0x44  0x0x24 3b0x 00x867  0x0x480 0x889 
+0x  00xf0 00x00867ffe6b1a6314 :0x 960x
+54  0x 240x 00x18 0xe8 0xe40 00x0837ffe6b1a6374 :0x 00xa01  0x0x0000  0x0x0900  0x0x4148  0x0xc7 b80x87  0x100x 880x 00x12f  0x0x0049  0x0x000
+0   0x00x000007ffe6b1a6324 : 0x010x 00x00 00x 00 0x0x0000  0x00x049  0x0xf0 0x83 0x08d 40x 00x424
+  0x 00x00 00x0490 7ffe6b1a63840x:c7  0x0x0476  0x0x0488  0x0x8b0 10x d00x 000x 480x 00x089
+  0x 440x 00x0240 00x7ffe6b1a633420:  0x0x0e80  0x0x7e41  0x0x3cc7  0x0x0877  0x0x00c0  0x00x190  0x0x0480
+   0x00x000007ffe6b1a6394 :0x fe0x 8b0xfe  0x0xfe54  0x7e0x 240x 480x 280x8b  0x0x54 00xf24 
+0x 1f  0x0x0840 00x007ffe6b1a63440:  0x0x0180  0x0x4c0 00x 8b0x 00x044  0x0x0024  0x0x830 80x 7a0x 4c0x 00xc8b  0x0x04c2 
+0x 24  0x0x010 0xe8 0x8c 0xfb 0xff 0x000ff7ffe6b1a63a4
+:>  0x0x000f0 00x84 0x1b7ffe6b1a6354 :0x 000x 900x 00x0cc  0x0x0cc0  0x0xcc48  0x0xcc8b  0x0xcc54  0x0xcc24  0x0xcc20  0x0xcc e80xcc  0x0x5ccc  0x0xcc3d  0x550x 00x748  0x0x8b0 00x
+ec 
+   0x000x0007ffe6b1a63640:0 00x7ffe6b1a63b448:  0x0x8390  0x0xec41  0x0x8330  0x0x6f48  0x0x1089  0x0x0541  0x0x240f  0x0x288e  0x0x49f9  0x0x3b0 00x 670x 00x00 80x 00x00 f0x 480x 860x 8b0x 960x
+e5   0x0x5d0
+0 0 00x7ffe6b1a63740:0 000x07ffe6b1a63c41:  0x0x0c30  0x0xc700  0x0x4842  0x0xb80 c0x88  0x0x02f 10x 490x 00x00 00x 00x00 00x 00x00 00x f00x 000x 83 0x0x0040  0x0x2449  0x0x08d0  0x00x448
+  0x 8b0x 000x0420
+7ffe6b1a6384 :  0x0x006000 7ffe6b1a63d40x:48  0x0x108b  0x0x48d0  0x0xb948  0x0x8089  0x440x 0x24 0x20 0xe8 0x7e 0x3c 0x07 0x004b  0x0xaa90  0x0x0480
+ 0x 0 00x 0x0000 00x007ffe6b1a63940:  0x0x008b  0x0x4954  0x0x24 8d0x 280x0 c0x 00xf0 e0x 1f0x 480x
+84   0x0x0000 00x0007ffe6b1a63e4 : 0x8b 0x0x5900 0x 0x3800  0x0x0490  0x0x8d83  0x0x07a4  0x0x0c0 60x 00x248
+  0x 850x 00x0db0 00x7ffe6b1a63a40: 0xf0 f0x 840x 840x 420x1b  0x0x0000  0x0x0000  0x0x0000 
+0x 48  0x0x008b0 00x7ffe6b1a63f454:  0x0x2449  0x0x208d  0x0xe81c 0x 5c0x1e  0x0x3d48  0x0x08b7  0x0x540 00x
+24   0x0x2800 00x04c7ffe6b1a63b4 :0x 8b0x 900x c00x 410x 4c0x 830x 8b0x 6f 0x0xcb10  0x0xe80
+1   0x0x000f0 00x7ffe6b1a64048e: 0xf9  0x0x980 00x 9c0x 00x011  0x0x000 10x 480x 900x 8b0x 480x e50x 8b0x 5d0x
+ 54 0x24  0x0x0028 0x0c70 7ffe6b1a63c40x: 0xc342  0x0x0cc7  0x0x0042  0x0x000c  0x0x0001
+   0x0x00 00x00000 7ffe6b1a64140x:00  0x0xf00 00x 830x f00x 00x483  0x0x240 40x 000x 240x 480x 00x08b  0x0x4842 
+0x 8b  0x0x00540 00x7ffe6b1a63d424:  0x0x2010  0x0x9048  0x0xe8b9  0xeb 0x0x803c  0x0x4b0 70x
+aa   0x0x000000 7ffe6b1a64240x:00  0x0x0000  0x00x090  0x0x0410  0x0x8349  0x0x6f8d  0x0x100 c0x 0x010 e0x 00xf48
+  0x 8e0x 00x09400 7ffe6b1a63e40x:0 00x 8b0x 00x059  0x0x0380 0x48  0x0x49 0x8d 8b 0x040x 0x0e56
+  0x 480x 0x0850 00x0db 7ffe6b1a64340x:0 f0x 5d0x 840x c30x 420x 480x 00x089  0x0x0440  0x0x0240 
+0x 18  0x0x048 0x8b 0xd10 0x48 00x0897ffe6b1a63f4 :0x 4c0x 490x 240x 8d 0x0x101c  0x0xe81e 
+0x 48  0x0x08b0 00x0547ffe6b1a6444 0x24 :0x 280x 680x 4c0x af0x 8b0x 00xbc0  0x0x04c0  0x0x8b90  0x0xcb48  0x0xe88b
+  0x 4c0x0 00x0240 7ffe6b1a64040x:10  0x0x9848  0x0x8b 9c0x d00x 110x 490x 00x12b  0x0x90d6 
+0x
+48 0x8b 0x54 0x24 0x28 0xc7 0x42 0x0c 0x00 0x00 0x00
+  0x00007ffe6b1a6414: 0x00 0xf0 0x83 0x04 0x24 0x00 0x48 0x8b 0x54 0x24 0x20 Top of stack (sp=0x0000x09000 ad7f3fe3f00x):e8
+  0x eb0x 00x03c0 000x00ad7f3fe3d07:
+  0x 00x0000007ffe6b1a642400:0 ad7f3fe4300x 00x000 00x0907ffe6b15cb18  0x0x0410 00x00830 ad7f3fe4100x 6f0x 00x00100 7ffe6b1a63540x
+0> 10x 00x0000f00 ad7f3fe3f00x:8e  0x00x009400 1bc7f6f3e700x 00x00 00x0000 00x1bc7eb8000000  0x00x0480 00x08b1bc7f71e5e8  0x0xe50
+00 0 7ffe6b15b6e70x000
+0 7ffe6b1a6434 :0x 00x05d00 00x0c3ad7f3fe410 :0x 0x480 000x89 0x440 00x024ad7f3fe430  0x0x18000 00x7ffe6b25d5e848  0x00x08b0 00x0d10 ad7f3fe4600x 480x 000x00890 00xad7f3fe6904c
+  0x 240x 0x0100 00x0e80
+0  ad7f3fe4300x:0 00x00007ffe6b1a64440:0 00x068ad7f3fe460  0x0xaf0 000x007ffe6b15b6e7b  0x0x0000 00x0900 1bc7f828d880x 480x 00x08b00 00x1bc7f76b4b84c
+  0x 240x 00x00100 00x048 0x8bad7f3fe450 :0x d00x 00x0490 00x02b1bc7f828d60  0x00x0d60
+0
+00Top of stack (sp=ad7f3fe6900x 00x0000000000ad7f4fdf000):ad7f3fe4c0
+  0x 00x0000007ffe6b2566800
+0 0 ad7f4fdee00x:0 00x00000000ad7f3fe4700:0 ad7f4fdf400x 00x0000000007ffe6b15cb180 00x0000000000000ad7f4fdf200  0x0x000000012085295bdb947ffe6b1a6354 
+0x> 00x000000001bc7eb800000 00xad7f4fdf000:0 00x0000001bc7f73e7d80
+1bc80a73e70   0x0x00000000001bc7ff000000 ad7f3fe4900x:0 00x0000001bc80a9e5e80 00x0000000007ffe6b15b6e7831fc0
+  0x 00x000000001bc7f828d880 00xad7f4fdf200:0 00x007ffe6b24fab00 00x000000ad7f4fdf400 00x0000000007ffe6b25d5e80 00x00000000
+0 0 ad7f4fdf700x 00x0000000000ad7f3fe4b00:ad7f4fe1a0 
+0x 0 00x0000000000000ad7f4fdf40: 0x0000000000000ad7f4fdf70  0x0x0000000007ffe6b15b6e70 ad7f3fe6900x 00x000000001bc80ba8d880 00xad7f3fe5100 00x000001bc80aeb4b8
+00 7ffe6b2571f7 
+0x 0 00x00000000ad7f4fdf600:0 ad7f3fe4d00x0:000 00x1bc80ba8d600 00x0000001bc83b1e3380 00x000ad7f4fe1a00 000x1bc818dd8680 00x00000ad7f4fdfd00 00x000000ad7f3fe5200 7ffe6b2566800x
+0 0 000x001bc7f828d880
+0 0 00x0000ad7f4fdf80000:ad7f3fe4f0 :0x 00x0000000000ad7f4fdfa01bc7f6f4838  0x0x000000120852a0d25e80 00x1bc7f8a18c80 00x0000001bc7ff000000 00x000000000001bc80abe7d80
+0 0 00x00 00x000000ad7f4fdfa00:0 00x00ad7f3fe6900
+0 0 00x0000000000831fc00 ad7f3fe5100x:0 00x0000001bc80ba8d880 00x00ad7f3fe5600 00x007ffe6b24fab00 00x007ffe6b257ad50 00x0000000000000ad7f3fe5a000 000x0000
+0 00 1bc7f22e4300x
+00 0 00x0000ad7f4fdfc00:0 00x00ad7f3fe53000:0 00x0000000000000001bc7f8a18780  0x0x000000000001bc7f8297b0 0x0ad7f4fe1a000 00x00001bc7f22e4300 000xad7f4fe0200 00x0000001bc7f8a18c80
+7ffe6b2571f7  
+0x 0 000x0000000ad7f3fe5500:0 ad7f4fdfe00x:0 00x00000001bc7f6f483800 ad7f4fe0100x0 00x0000000001000000010 1bc83e009b00x 00x00000000ad7f3fe5d00 00x1bc83e009380 00x000007ffe6b2578580
+0 1bc80ba8d88 
+0x 0 00x0000000000ad7f4fe000ad7f3fe570::  0x0x00000000001bc80a748380 00x000000beb9980 00x1bc80c218c80 00x0000001bc7f76b9980 00x00000000000ad7f3fe5a00 00x00000007ffe6b3ae4070
+  0x 00x00000000000ad7f4fe1a0ad7f3fe590
+:   0x00x000000001bc83b1dcf000ad7f4fe020 :0x 00x000000001bc7f6f483800 ad7f4fe0700x 00x000000007ffe6b257ad51bc7f828d88  0x0x000000000000ad7f4fe0700 00x0000beb9980
+0 0 1bc805ae4300x
+0 000 00x00ad7f3fe5b00:0 000x000ad7f4fe04000:7ffe6b2577d7  0x0x000000000001bc80c21878ad7f3fe570  0x0x000000000000001bc80ba97b000 000x0000 00000x1bc805ae43000 00x000007ffe6c3e9d9b0
+1bc80c218c8 
+  0x 00x000000000ad7f3fe5d00: 0x000ad7f4fe0600:0 00x00ad7f3fe6100 000x001bc80a748380 00x0007ffe6b257ee5 0x00000000001bc83b1dcf0100000001  0x0x0000000000ad7f4fe0e00 1bc83a025780x
+0
+0007ffe6b257858
+  0x000000ad7f4fe080: 0x0000000000beb998 0x000001bc80aeb998 0x000001bc83e00990 0x000000446b8da211
+  0x000000ad7f4fe0a0: 0x000000ad7f4fe0d0 0x000001bc80a74838 0x000001bc80ba8d88 0x0000000000beb998
+  0x000000ad7f4fe0c0: 0x00007ffe6b2577d7 VM thread locals for the failing thread 0x0x000000000001bc3b508580ad7f4fe080: 
+0x 0 000000000000000 0x00007ffe6c3e9d9b
+  0x000000ad7f4fe0e0: 0x000000ad7f4fe120 0x00007ffe6b257ee5 0x000000ad7f4fe110 0x00007ffe6b21a17c
+
+VM thread locals for the failing thread 0x000001bc3b508000:
+  00 ( (88 bytes):  bytes): JNIThreadLocalEnvironment.jniFunctions = (bytes) 
+    0x0000JNIThreadLocalEnvironment.jniFunctions = 0(bytes) 1bc3b508000
+:     0x0x00000000001bc806890101bc3b508580
+ :  80x0 (800 bytes): 00StackOverflowCheckImpl.stackBoundaryTL1bc7f309010 = 
+ (Word)  18 ( (80x bytes): 0StackOverflowCheckImpl.stackBoundaryTL00 = 00(Word) 00100 (000x000000010)0
+ 0 0160 (040 bytes): 000001)
+  16 (4 bytes): Safepoint.safepointRequested = (int) 2147088872 (0x7ff9f9e8)
+ Safepoint.safepointRequested  = 20(int)  (42147285085 bytes):  (0x7ffcf85d)
+  20 (4 bytes): StatusSupport.statusTL = (int) 1 (0x0000000StatusSupport.statusTL1 = )(int) 
+1  ( 0x240 (03200 bytes): 0ThreadLocalAllocation.regularTLAB0 = 0(bytes) 1
+)  
+    0x240 (0320 bytes): 0ThreadLocalAllocation.regularTLAB0 = 1bc3b508018(bytes) :
+  0x 0 0 00x000000000001bc3b5085980:0 00x00000000 00x000000000000000000000000000 
+ 0x 0 00 000x000000000000001bc3b5080280:0 
+0x0 00 0  00x0000000000001bc3b5085a80:0 00x00 00x0000000000000000000000000000
+0 0  560x (080 bytes): 0PlatformThreads.currentThread0 = 0(Object) 0java.lang.Thread0 (00x000000000001bc83c8096000)
+  
+64  ( 856 bytes):  (JavaFrameAnchors.lastAnchor8 =  bytes): (Word) PlatformThreads.currentThread0 =  ((Object) 0x0java.lang.Thread00 (00x000000000001bc83b80a780)00
+0  640 (08) bytes): 
+JavaFrameAnchors.lastAnchor  =  (Word) 720 ( (80x00 bytes): 0PlatformThreads.currentVThreadId0 = 0(long) 0110 (000x0000000000000)0
+0 0 0720 (080 bytes): 0PlatformThreads.currentVThreadId0 = b(long) )15
+ ( 0x 0800 (080 bytes): 0ExceptionUnwind.currentException = (Object) null0
+0 0 0880 (080 bytes): 000f)
+  80 (8 bytes): ExceptionUnwind.currentException = (Object) null
+  88 (8 bytes): IdentityHashCodeSupport.hashCodeGeneratorTL = IdentityHashCodeSupport.hashCodeGeneratorTL(Object)  = null(Object) 
+null 
+   9696 ( (88 bytes):  bytes): IsolatedCompileClient.currentClientIsolatedCompileClient.currentClient =  = (Object) (Object) nullnull
+
+   104  (8 bytes): IsolatedCompileContext.currentContext = 104(Object)  (null8
+ bytes):  IsolatedCompileContext.currentContext  = 112 ((Object) 8null bytes): 
+JNIObjectHandles.handles  =  (Object) 112 (com.oracle.svm.core.handles.ThreadLocalHandles8 ( bytes): 0xJNIObjectHandles.handles0 = 0(Object) 00com.oracle.svm.core.handles.ThreadLocalHandles0 (1bc83b80b300x)0
+ 0 01200 (081bc83c80aa0 bytes): )JNIThreadLocalPendingException.pendingException
+   = 120(Object)  (null8
+  bytes):  JNIThreadLocalPendingException.pendingException128 =  ((Object) 8null bytes): 
+  128 (8 bytes): JNIThreadLocalReferencedObjects.referencedObjectsListHead = (Object) null
+  136 (8 bytes): JNIThreadOwnedMonitors.ownedMonitors = (Object) nullJNIThreadLocalReferencedObjects.referencedObjectsListHead = 
+(Object)  null 
+144  ( 8136 bytes):  (NoAllocationVerifier.openVerifiers8 =  bytes): (Object) JNIThreadOwnedMonitors.ownedMonitors = (Object) null
+  144 (8 bytes): NoAllocationVerifier.openVerifiers = (Object) com.oracle.svm.core.heap.NoAllocationVerifier (com.oracle.svm.core.heap.NoAllocationVerifier0x (00x000000001bc80ba8d600)1bc7f828d60
+) 
+  152  (1528 ( bytes): 8ThreadingSupportImpl.activeTimer bytes):  = ThreadingSupportImpl.activeTimer(Object)  = null(Object) 
+ null 
+160   (1608 ( bytes): 8ActionOnExitSafepointSupport.returnIP bytes):  = ActionOnExitSafepointSupport.returnIP(Word)  = 0(Word)  (00x (00x000000000000000000000000000000)
+0 ) 
+168   (1688 ( bytes): 8ActionOnExitSafepointSupport.returnSP bytes):  = ActionOnExitSafepointSupport.returnSP(Word)  = 0(Word)  (00x (00x000000000000000000000000000000)0
+)
+    176176 (8 ( bytes): 8 bytes): SubstrateDiagnostics.threadOnlyAttachedForCrashHandler = (bytes) 
+    0x0000SubstrateDiagnostics.threadOnlyAttachedForCrashHandler0 = 1bc3b5080b0(bytes) :
+  0x  0 00x000000000001bc3b5086300:0 000x000000000
+0 0 01840 (080 bytes): 0ThreadLocalAllocation.allocatedBytes0 = 00(Word) 01567048
+ ( 0x 01840 (080 bytes): 0ThreadLocalAllocation.allocatedBytes0 = 0(Word) 06443440 (00x00017e9480)0
+  01920 (0800 bytes): 0VMThreads.IsolateTL9d4f8 = )(Word) 
+1909111914496   (1920x0 (080 bytes): 0VMThreads.IsolateTL0 = 1bc7ff00000(Word) )1909091467264
+  ( 0x2000 (080 bytes): 00VMThreads.OSThreadHandleTL1bc7eb80000 = )(Word) 
+ 1728  (2000x (080 bytes): 00VMThreads.OSThreadHandleTL0 = 00(Word) 017040 (000x0006c00)0
+0 00 002080 (080 bytes): 0VMThreads.OSThreadIdTL0 = 6a8(Word) )120272
+ ( 0x 02080 (080 bytes): 00VMThreads.OSThreadIdTL0 = 0(Word) 01205040 (00x1d5d000)0
+0  0002160 (0800 bytes): 1d6b8VMThreads.StackBase) = 
+(Word)  745165291520  (2160x (080 bytes): 0VMThreads.StackBase0 = 0(Word) 0745164242944ad7f500000 ()0x
+0 0 02240 (008ad7f400000 bytes): )VMThreads.StackEnd
+ =  (Word)  745164242944224 ( (0x80 bytes): 0VMThreads.StackEnd0 = 0(Word) 07451631943680 (ad7f4000000x)0
+00 0 00232ad7f300000 ()8
+ bytes):   VMThreads.StartedByCurrentIsolate232 =  ((bytes) 8
+ bytes):  VMThreads.StartedByCurrentIsolate  =  (bytes)  
+0x  0 0 00x00001bc3b5080e80:0 00x1bc3b5086680:0 00x00000000000000000000000000
+0 0 0240
+ (  8240 bytes):  (VMThreads.nextTL8 =  bytes): (Word) VMThreads.nextTL0 =  ((Word) 0x000 (00x00000000000000000000000000000))
+
+    248248 ( (88 bytes):  bytes): VMThreads.unalignedIsolateThreadMemoryTLVMThreads.unalignedIsolateThreadMemoryTL =  = (Word) (Word) 19079606108161907960612224 ( (0x00x00001bc3b508000)
+0 0 02560 (041bc3b508580 bytes): )ActionOnExitSafepointSupport.actionTL
+ =  (int)  0256 ( (0x40 bytes): 0ActionOnExitSafepointSupport.actionTL0 = 0(int) 000 (00x00)0
+0 0 0260000) (
+4   bytes): 260ActionOnTransitionToJavaSupport.actionTL ( = 4(int) 0 bytes):  (ActionOnTransitionToJavaSupport.actionTL0x = 0(int) 000 (00x00000000)0
+00 0 )264
+ ( 4  bytes): 264ImplicitExceptions.implicitExceptionsAreFatal = (int) 0 (0x00000000 (4 bytes): )ImplicitExceptions.implicitExceptionsAreFatal
+ =  (int)  0268 ( (0x40 bytes): 0StackOverflowCheckImpl.yellowZoneStateTL00 = 00(int) 002130640638) (
+0x 7efefefe )
+268  ( 4272 bytes):  (StackOverflowCheckImpl.yellowZoneStateTL4 =  bytes): (int) StatusSupport.safepointBehaviorTL2130640638 =  ((int) 0x17efefefe ()0x
+00 0 02720 (040 bytes): 1StatusSupport.safepointBehaviorTL) = 
+(int)  1  (2760x (040 bytes): 00ThreadingSupportImpl.currentPauseDepth000 = 1(int) )1
+ (  0x2760 (040 bytes): 0ThreadingSupportImpl.currentPauseDepth0 = 001(int) )1
+ ( 0x 0
+0000001)
+  
+Java frame anchors for the failing thread 0x000001bc3b508000:
+  Java frame anchors for the failing thread 0x000001bc3b508580:
+  No anchors
+  
+Stacktrace for the failing thread 0xNo anchors
+0  
+Stacktrace for the failing thread 0x000000001bc3b5080000 (A=AOT compiled, J=JIT compiled, D=deoptimized, i=inlined):1bc3b508580
+ (A=AOT compiled, J=JIT compiled, D=deoptimized, i=inlined): 
+   ii    SP SP 0x0x0000000000ad7f4fdf0000 IP ad7f3fe3f00x IP 000x0000007ffe6b1a63547ffe6b1a6354 size= size=4848        com.oracle.svm.core.jdk.VMErrorSubstitutions.shutdown(com.oracle.svm.core.jdk.VMErrorSubstitutionsVMErrorSubstitutions.java.:shutdown148()VMErrorSubstitutions.java
+: 148 )A 
+  SP  0xA0 0 0SP 0000xad7f3fe3f00 IP 00x0000007ffe6b1a6354 size=0480 ad7f4fdf00  IP   0xcom.oracle.svm.core.jdk.VMErrorSubstitutions00007ffe6b1a6354 size=48    com.oracle.svm.core.jdk.VMErrorSubstitutions.shouldNotReachHere(VMErrorSubstitutions.java.:shouldNotReachHere141()VMErrorSubstitutions.java
+: 141 )
+  A  SP 0x000000ad7f3fe420 IP 0xA  0SP 00x0007ffe6b25d5e80 size=0320 0 0  ad7f4fdf30com.oracle.svm.core.util.VMError IP .0xshouldNotReachHere000(0VMError.java7ffe6b25d5e8: size=9732) 
+     com.oracle.svm.core.util.VMError.shouldNotReachHere(VMError.java:97)
+  A  SP 0x000000ad7f3fe440 IP 0xA  0SP 0000x7ffe6b15b6e70 size=0480 0 0  0com.oracle.svm.core.genscavenge.GCImpl$CollectionVMOperationad7f4fdf50 IP 0x00007ffe6b15b6e7 size=48    com.oracle.svm.core.genscavenge.GCImpl$CollectionVMOperation.operate(.operate(GCImpl.java:1187)
+  GCImpl.java:1187)
+  A  SP 0x000000ad7f3fe470 IP 0xA 0 00SP 00x7ffe6b2566800 size=096 0 0  00com.oracle.svm.core.thread.VMOperationad7f4fdf80. IP execute0x(0VMOperation.java000:7ffe6b256680108)
+  size= 96    com.oracle.svm.core.thread.VMOperation.execute(VMOperation.java:108)
+  A  SP 0x000000ad7f3fe4d0 IP 0x0000A  7ffe6b2571f7SP  size=0x800 0 0  00com.oracle.svm.core.thread.VMOperationControl$WorkQueues0ad7f4fdfe0 IP 0x00007ffe6b2571f7 size=80    com.oracle.svm.core.thread.VMOperationControl$WorkQueues.drain(VMOperationControl.java:622)
+  .drain(VMOperationControl.java:622)
+  A  SP 0x000000ad7f3fe520 IP 0x000A  0SP 7ffe6b257ad50x size=08000 0 00  ad7f4fe030com.oracle.svm.core.thread.VMOperationControl$WorkQueues IP 0x00007ffe6b257ad5 size=80    com.oracle.svm.core.thread.VMOperationControl$WorkQueues.executeAllQueuedVMOperations(VMOperationControl.java:592)
+  .executeAllQueuedVMOperations(VMOperationControl.java:592)
+  A  SP 0x000000ad7f3fe570 IP 0x00A  0SP 00x7ffe6b2578580 size=001120 00  ad7f4fe080com.oracle.svm.core.thread.VMOperationControl$WorkQueues IP 0x00007ffe6b257858 size=112   com.oracle.svm.core.thread.VMOperationControl$WorkQueues.enqueueAndExecute.enqueueAndExecute((VMOperationControl.javaVMOperationControl.java::529529))
+
+    A  ASP  0x 0SP 000x0000ad7f3fe5e00 IP 00x000000ad7f4fe0f00 IP 7ffe6b257ee50x size=0640    com.oracle.svm.core.thread.VMOperationControl.0enqueue0(7ffe6b257ee5VMOperationControl.java size=:64320 ) 
+   com.oracle.svm.core.thread.VMOperationControl .i enqueue (SP VMOperationControl.java0x0:003200)00
+ad7f3fe620  IP  0x0i0 0 0SP 7ffe6b24fa4e0x size=00320 0 0  0com.oracle.svm.core.thread.VMOperationControlad7f4fe130. IP enqueue0x0000(7ffe6b24fa4eVMOperationControl.java size=:32282 )   com.oracle.svm.core.thread.VMOperationControl.enqueue(VMOperationControl.java:282)
+  A  SP 0x00
+  0A0 0 0SP ad7f3fe6200x IP 00x0000007ffe6b24fa4e00 size=032 ad7f4fe130  IP   0x0com.oracle.svm.core.thread.NativeVMOperation0.0enqueue0(7ffe6b24fa4eNativeVMOperation.java size=:3249 ) 
+   com.oracle.svm.core.thread.NativeVMOperation .enqueue(NativeVMOperation.java:49)
+  i  SP 0x000000ad7f3fe640 IP 0xi 0 0SP 00x007ffe6b15ce550 size=01920 0  0com.oracle.svm.core.genscavenge.GCImplad7f4fe150 IP 0x00007ffe6b15ce55 size=192   com.oracle.svm.core.genscavenge.GCImpl.enqueueCollectOperation(GCImpl.java:199).enqueueCollectOperation(GCImpl.java:199)
+  A  SP 0x000000
+ ad7f3fe640  IP A0x 0 0SP 00x007ffe6b15ce550 size=01920 0  0com.oracle.svm.core.genscavenge.GCImplad7f4fe150. IP collectWithoutAllocating0x(00GCImpl.java0:01887ffe6b15ce55) size=
+192     com.oracle.svm.core.genscavenge.GCImplA.  collectWithoutAllocatingSP (0xGCImpl.java00:018800)0
+ad7f3fe700  IP  0x0A00 0 7ffe6b15c8e5SP  size=0x320 0 0  com.oracle.svm.core.genscavenge.GCImpl.collect0(00GCImpl.javaad7f4fe210: IP 1690x)0
+0 0 0A7ffe6b15c8e5   size=SP 320x 0 0  00com.oracle.svm.core.genscavenge.GCImpl0.0collectad7f3fe720( IP GCImpl.java0x:01690)0
+0 7ffe6b15d957  size=A 48   SP   0xcom.oracle.svm.core.genscavenge.GCImpl00.0maybeCauseUserRequestedCollection0(0GCImpl.java0:ad7f4fe230163 IP )0x
+0 0 007ffe6b15d957 size=48    com.oracle.svm.core.genscavenge.GCImpl.maybeCauseUserRequestedCollection(GCImpl.java:163)
+  ii    SP SP 0x0x000000000000ad7f4fe260ad7f3fe750 IP  IP 0x0x00000007ffe6b8e0b470 size=7ffe6b8e0a3d80 size= 80       org.graalvm.compiler.serviceprovider.GraalServicesorg.graalvm.compiler.serviceprovider.GraalServices..notifyLowMemoryPoint(GraalServices.javanotifyLowMemoryPoint:(746GraalServices.java):746
+)  
+A    SP A0x 0 0SP 000x0000ad7f3fe7500 IP 00x00000ad7f4fe2600 IP 7ffe6b8e0a3d0x size=0080 0 0  7ffe6b8e0b47 size=80    org.graalvm.compiler.core.CompilationWrapper.org.graalvm.compiler.core.CompilationWrapper.runrun((CompilationWrapper.javaCompilationWrapper.java:229):
+229 ) 
+  AA    SP SP 0x0x00000000ad7f4fe2b00 IP 00x000ad7f3fe7a00 IP 00x007ffe6ba1ecda000 size=7ffe6ba1ecda144 size= 144     org.graalvm.compiler.hotspot.CompilationTaskorg.graalvm.compiler.hotspot.CompilationTask..runCompilationrunCompilation((CompilationTask.javaCompilationTask.java::382382))
+
+    AA    SP SP 0x0x00000000000ad7f3fe8300 IP ad7f4fe3400x IP 00007ffe6ba1e9f5 size=48 0x 0  0org.graalvm.compiler.hotspot.CompilationTask0.0runCompilation7ffe6ba1e9f5( size=CompilationTask.java48: 357 )  
+org.graalvm.compiler.hotspot.CompilationTask . runCompilationA( CompilationTask.java :SP 3570x)0
+00 0 00ad7f3fe860 IP 0x0A00 0 7ffe6ba5466bSP  size=0x2240 0  0org.graalvm.compiler.hotspot.HotSpotGraalCompiler0.0compileMethod0(ad7f4fe370HotSpotGraalCompiler.java IP :0x1590)00
+0 7ffe6ba5466b  size=A224   SP   0xorg.graalvm.compiler.hotspot.HotSpotGraalCompiler0.00compileMethod00(0HotSpotGraalCompiler.javaad7f3fe940: IP 1590x)0
+0 0 0A  7ffe6ba5564cSP  size=0x640 0 00  00org.graalvm.compiler.hotspot.HotSpotGraalCompilerad7f4fe450. IP compileMethod0x0(0HotSpotGraalCompiler.java0:06937ffe6ba5564c) size=
+64      A org.graalvm.compiler.hotspot.HotSpotGraalCompiler .SP compileMethod0x(000HotSpotGraalCompiler.java00:6930)ad7f3fe980
+ IP  0x 00A 0 0SP 7ffe6ba540070x0 size=0320 0 0  0org.graalvm.compiler.hotspot.HotSpotGraalCompilerad7f4fe490.compileMethod( IP HotSpotGraalCompiler.java0x:0110000)7ffe6ba54007
+ size= 32     org.graalvm.compiler.hotspot.HotSpotGraalCompiler.compileMethod(HotSpotGraalCompiler.java:110)
+  AA    SP SP 0x0x000000000000ad7f3fe9a0ad7f4fe4b0 IP  IP 0x0x00000007ffe6b81fb200 size=7ffe6b81fb2064 size=  64    jdk.vm.ci.hotspot.HotSpotJVMCIRuntime  .jdk.vm.ci.hotspot.HotSpotJVMCIRuntimecompileMethod.(compileMethodHotSpotJVMCIRuntime.java(:HotSpotJVMCIRuntime.java924:924))
+
+    A A  SP  0xSP 00x00000000000ad7f4fe4f0ad7f3fe9e0 IP  IP 0x0x000000007ffe6b1df7197ffe6b1df719 size= size=8080        com.oracle.svm.core.jni.JNIJavaCallWrapperHoldercom.oracle.svm.core.jni.JNIJavaCallWrapperHolder..invoke_AIJI_Ainvoke_AIJI_A((JNIJavaCallWrapperHolder.javaJNIJavaCallWrapperHolder.java:0:)0
+)  
+  AA    SP SP 0x00x00000000ad7f3fea300 IP 000xad7f4fe54000 IP 000x7ffe6b1bdd3e00 size=03360 7ffe6b1bdd3e   size=com.oracle.svm.core.jni.JNIJavaCallVariantWrapperHolder336. invokeJJIJIJI_J_VA_LIST_Nonvirtual  (com.oracle.svm.core.jni.JNIJavaCallVariantWrapperHolderJNIJavaCallVariantWrapperHolder.java.:invokeJJIJIJI_J_VA_LIST_Nonvirtual0()JNIJavaCallVariantWrapperHolder.java
+: 0 )
+
+Threads: 
+  
+ Threads:0x
+0 0 00x00001bc3b5085800 00STATUS_IN_JAVA1bc3b508000 ( PREVENT_VM_FROM_REACHING_SAFEPOINTSTATUS_IN_JAVA) ( "PREVENT_VM_FROM_REACHING_SAFEPOINTJVMCI-native CompilerThread1)" -  "0xJVMCI-native CompilerThread20" - 00x0000001bc83b80a780, stack(00x1bc83c809600, stack(00x000000000ad7f3000000,ad7f4000000x,00x0000000000ad7f5000000)ad7f400000
+ ) 
+
+ VMOperation in progress:  Garbage collection
+
+VMOperation in progress:  Garbage collection
+   Safepoint: Safepoint: truetrue
+
+    QueuingThread: QueuingThread: 0x0x00000000001bc3b5080001bc3b508580
+
+    ExecutingThread: ExecutingThread: 0x0x00000000001bc3b5080001bc3b508580
+
+    
+
+The The 3030 most recent VM operation status changes: most recent VM operation status changes:
+
+    00..006531s - s - StartedStarted  Garbage collectionGarbage collection (safepoint:  (safepoint: truetrue, queueingThread: , queueingThread: 0x0x00000000001bc3b5080001bc3b508580, executingThread: , executingThread: 0x0x00000000001bc3b5080001bc3b508580, safepointId: , safepointId: 11))
+
+    
+
+VM mutexes:VM mutexes:
+
+    mutex "mutex "RealLog.backTracePrinterMutexRealLog.backTracePrinterMutex" " is unlocked.is unlocked.
+
+   mutex " mainVMOperationControlWorkQueuemutex "" mainVMOperationControlWorkQueueis locked by " thread is locked by 0xthread 00x000000001bc3b5085800
+1bc3b508000 
+  mutex " referencePendingListmutex "" referencePendingListis unlocked." 
+is unlocked. 
+  mutex " threadmutex "" threadis locked by " thread is locked by 0xthread 00x000000001bc3b5085800
+1bc3b508000 
+  
+ General information:
+
+General information: 
+  VM version:  21.0.2+13VM version: , 21.0.2+13windows, /windowsamd64/
+amd64 
+  Current timestamp:  1737878404435Current timestamp: 
+1737878404435 
+  VM uptime:  0VM uptime: .01.2112s1
+s
+    AOT compiled code: 0x00AOT compiled code: 00x007ffe6b0f10000 - 00x0007ffe6b0f100000 - 7ffe6c3bdd0f
+  0xCPU features used for AOT compiled code: 0CX8, CMOV, FXSR, MMX, SSE, SSE20
+00  7ffe6c3bdd0f
+
+Heap settings and statistics: 
+  CPU features used for AOT compiled code:  CX8, CMOV, FXSR, MMX, SSE, SSE2Supports isolates: 
+true 
+   
+Heap base: Heap settings and statistics:0x
+0 0 0Supports isolates: 00true1bc7eb80000
+
+   Heap base:  0xObject reference size: 00800
+0 1bc7ff00000 
+Aligned chunk size:  524288 
+Object reference size:  8 
+Large array threshold:  131072 
+Aligned chunk size:   524288Incremental collections: 
+ 0 
+Large array threshold:   131072Complete collections: 
+0 
+   Incremental collections: 
+0Heap usage:
+
+   Complete collections:  0
+  
+Heap usage:
+  Eden: 16.00M (16.00M in 32 aligned chunks, Eden: 170..5000M in M (017 unaligned chunks).
+5 0 M in Survivor-1 To35:  aligned chunks, 00..0500M in M (00 unaligned chunks).
+5 0M in 1  aligned chunks, Old0.: 000.M in 00 unaligned chunks)0
+M ( 0 .Old0: 00M in .00 aligned chunks, 00M (.00.00M in 00M in  unaligned chunks)0
+ aligned chunks,  0. 0
+0Native image heap boundaries:M in 
+ 0  unaligned chunks)ReadOnly Primitives: 
+0x 0 0
+0Native image heap boundaries:0
+0  1bc7ff80830ReadOnly Primitives:  - 0x00x000000001bc803224480
+1bc7ec00830  -  0xReadOnly References: 00x000000001bc7efa24480
+1bc80322448  -  ReadOnly References: 0x000001bc7efa2448 - 0x0x00000000001bc806887f81bc7f3087f8
+
+    ReadOnly Relocatables: ReadOnly Relocatables: 0x0x000000001bc80689000001bc7f309000 -  - 0x0x000000001bc808392380
+0 1bc7f4b9238 
+Writable Primitives:  0x 0Writable Primitives: 00x0001bc8083a000 - 00x00000001bc7f4ba0000 - 00x1bc808eae500
+0 00 0Writable References: 1bc7f56ae500x
+0 0 0Writable References: 00x001bc808eae500 - 00x0001bc7f56ae500 - 00x0001bc80c7a1c8
+0 0 0Writable Huge: 00x1bc7f8fa1c80
+0 0 0Writable Huge: 00x1bc80c800380 - 00x00000001bc7f9000380 - 1bc80ce7fa00x
+0 0 0ReadOnly Huge: 00x0001bc7f967fa00
+00 1bc80ce8038  - ReadOnly Huge: 0x0x00000000001bc7f9680381bc81253b70 - 
+0x 0 0
+0001bc7fed3b70
+  
+Heap chunks: E=eden, S=survivor, O=old, F=free; A=aligned chunk, U=unaligned chunk; T=to spaceHeap chunks: E=eden, S=survivor, O=old, F=free; A=aligned chunk, U=unaligned chunk; T=to space
+
+    ||0x0x00000000001bc819800001bc81880000||0x0x00000000001bc818808301bc81980830, , 0x0x00000000001bc818dda501bc819f5a78, , 0x0x000000001bc81a000000|0 1bc8190000091|% |73%|  E|A|
+  |0x0 0 0E00|1bc81780000A||0x0
+0 00 0|1bc817808300x, 00x000000001bc817000000|1bc817fffc80x, 00x000000001bc817008300, 0x001bc818000000|0 0991bc81780000%, |0x 00 0E0|0A1bc81780000||
+100 % || 0x E0|0A0|00
+1bc81600000 | 0x|00x00000001bc816008300, 00x1bc815800000|00x0001bc8167ffc0, 0x00000000001bc816800001bc81580830|,  0x990%0|00 0 1bc815ffff0E, |0xA00|
+0 00 1bc81600000||0x 0990%0|0 0 1bc81480000E||0xA0|0
+ 0 0|00x1bc814808300, 00x0000001bc8140000000|1bc814fffc80x, 00x000000001bc814008300, 1bc815000000x|0 990%0|0 0 1bc8147ffd8E, |0xA0|0
+0 0 0|1bc814800000x|0 0000991bc81380000%||0x 00 0E0|0A1bc81380830|, 
+0x 0 0|00x00001bc813fffd00, 00x001bc8128000000|00x0001bc814000000|0 0991bc81280830%, |0x 0 0E00|0A1bc812fffd8|, 0x0
+0  0|00x001bc813000000|0 0990%1bc3bf00000|| 0x 0E0|0A0|0
+1bc3bf00830 ,  0x|00x0000000001bc3bf7ffd81bc3be80000, |0x0x0000000001bc3be808300, 1bc3bf800000x|0 99%0|0 0 0E1bc3befffd0|, A0x|0
+0 0 0|00x1bc3bf000000|00 0990%1bc3bd00000|| 0x 00E0001bc3bd00830|, A0x|0
+0 0 0|00x1bc3bd7df400, 000x00001bc3bc800000|00x000001bc3bd800000|1bc3bc80830 , 980x%0|00 0 0E1bc3bcfdf40|, A|0x0
+  |0x00000001bc3bd000000|0 1bc81e0000098|%0x|0 0 0E0|0A1bc81e00830|, 
+0x 0 0|00x0001bc81e06d180, 00x00001bc81a800000|00x001bc81e800000|0 0 041bc81a80830%, |0x 0 0E0|0A0|1bc81aad1f0
+,  0x 0|00x0000001bc81b000000|0 1bc81c8000034|%0x|0 0 0E0|0A1bc81c80830|
+ ,  0x|00x00000001bc81d000000, 00x1bc81b800000|00x0000001bc81d000000|01001bc81b80830%, |0x 0 0E0|0A0|1bc81bb0608
+,  0x 0|00x00000001bc81c000000|1bc81b00000 |0x370%0|0 00 1bc81b00830E, |0xA0|0
+0 00 1bc81b7ffd0|, 0x0x00000000001bc81d000001bc81b80000||0x 00990%00|1bc81d00830 ,  0xE0|0A0001bc81d2aa78, 0x|0
+0 0 0|01bc81d80000|0x 0330%0|00 1bc81f80000 |E0x|0A0|0
+0 0 1bc81f80830|, 0x0x00000000001bc81fa58901bc82500000, |0x0x00000000001bc820000001bc82500830|,  0x290%0|0 0 E|0A1bc825307f0|, 
+0x  00|00x00001bc825800000|0 0371bc82580000%||0x 0 0E0|0A0|1bc82580830
+,  0x 00000|1bc8259d5e00x, 00x000000001bc823000000|1bc826000000x0|0 00220%1bc82300830, |0x 0 0E0|0A0|1bc8237ffe0
+,  0x 0|00x0000001bc823800000|0 1bc8240000099|%0x|0 00 0E0|1bc82400830A, |0x0
+0 0 0|00x1bc8247ffe00, 00x00000001bc821800000|1bc824800000x|0 0990%0|0 1bc82180830 E, |0xA00|0
+00 1bc821ffb10 , |0x0x00000000001bc822000001bc82280000|| 0x0990%0|0 0 1bc82280830E, |A0x|0
+0 0 |00x0001bc822ffde00, 00x0001bc820000000|00x001bc823000000|0 0990%1bc82000830|,  0x 0E|0A0|0
+0 1bc8207ffe0 , |0x0x00000000001bc820800001bc82080000|| 0x9900%0|0 0 1bc82080830E, |0x0A00|00
+1bc82100000 ,  0x|000x00000001bc821000000|1bc81e80000100|0x%0|0 0 00E1bc81e80830|, A0x|0
+0  |0x00000001bc81efffd80, 1bc830800000x0|0x000000001bc81f00000| 0991bc83080830%, |0x 0 0E0|00A1bc830b29c0|, 
+0x  00|00x00001bc8310000000|0 1bc8260000039|%0x|0 0 0E0|0A1bc82600830|, 
+0x 0 0|0x000000001bc8264bd101bc82e80000, |0x0x0000000001bc82e808300, 1bc826800000x|00 0590%0|1bc82effff8 ,  0xE0|0A00|0
+1bc82f00000  || 0x990%0|00  0E1bc82980000||A0x|0
+ 0 00|00x1bc8298083000, 00x00000001bc829d2c201bc82d00000, |0x0x00000000001bc82d008301bc82a00000, |0x 0640%0|0 0 1bc82d7ffe0E, |0xA0|0
+00 0 1bc82d80000| |990x%0|0 0 0E0|1bc82780000A||0x
+0 0 0|00x001bc827808300, 00x00001bc82c000000|00x001bc827fffe00, 00x0001bc82c008300, 00x00001bc8280000000|0 1bc82c7fff099%|,  0x 0E0|00A0|1bc82c80000
+|   99|%0x|0 0 0E0|0A1bc82c80000||
+0x 0 0|00x000001bc82c808300, 00x1bc82a80000|0x000001bc82a80830, 0x000001bc82afffd8, 0000x00001bc82c926d00, 00x001bc82b000000|0 0990%1bc82d00000||   14E%||A | 
+E | A||0x
+0 0 00|00x01bc8288000000|0x00001bc82b0000000|00x001bc8288083000, 00x1bc82b0083000, 000x0001bc828fffc00, 00x0001bc82b7fff000, 00x1bc82900000000|0 0991bc82b80000%||   99E%|A||
+    E||0x0A00|00
+1bc82700000 | 0x0|00x00000001bc827008300, 1bc82f000000x|000x000000001bc827800001bc82f00830, , 0x0x00000000001bc82f36cd81bc82780000, |0x1000%0|00 0 1bc82f80000E||A |42
+%  || 0x 0E00|A|0
+0 1bc83280000 |0x|00x000000001bc832808300, 1bc82d800000x0|000x00001bc832cacc000, 00x01bc82d808300, 000x001bc833000000|0 0580%1bc82dfffd8|,   0xE0|0A|0
+ 0 0|1bc82e000000x0|00 0990%1bc83700000||  0xE0|00A00|1bc83700830
+,  0x 0|00x0000001bc83707f880, 00x1bc833000000|00x00000001bc837800000|1bc83300830 ,  0x500%0|00 1bc8333c578 , E0x0|0A0|0
+0 1bc83380000 || 0x4600%0|0  0E1bc83400000||A0x|00
+0 0 |0x001bc834008300, 00x00001bc8318000000|00x01bc8347ffe800001bc83180830, , 0x0x00000000001bc831ffff01bc83480000, |0x0 0990001bc83200000|% |99  %|E | AE||
+A | 
+| 0x 0|00x000000001bc830000001bc83780000||0x0x000000001bc8300083000, 1bc837808300x, 00x0000000001bc837a54101bc8307fff0, , 0x0x00000000001bc838000001bc83080000||  2899%%||    EE||AA||
+
+   | 0x|00x0000000001bc838000001bc83480000||0x0x000000001bc83800830, 0x000001bc83825c00, 0x000001bc834808300, 00x1bc838800000|00 0290%1bc834afb90|,  0x 0E0|0A00|1bc83500000
+|   37|%0x0|0  E0|0A0|1bc83c00000
+| 0x 0|00x0000001bc83c008300, 00x1bc835800000|00x0000001bc83c078600, 00x1bc835808300, 000x00001bc83c800000|0 0 1bc835a59b05, %0x|0 0 0E0|0A1bc83600000||
+  29 %|0x|0 0 0E0|0A1bc83a80000||
+0x 0 0|00x0001bc83a808300, 00x00001bc836000000|000x1bc83affff80, 00x000000001bc836008301bc83b00000, |0x 990%0|0 001bc8362bc80 , E0x|0A0|0
+0 0 1bc83680000||0x 03300%0|0 1bc83980000 |E0x0|A0|
+ 0 0|00x01bc8398083000, 000x1bc838800000|00x000001bc839fffe80, 000x01bc8388083000, 00x0001bc83a000000|00 991bc838a0028%|,  0x 0E00|A0|0
+1bc83900000 |  |240x%00|0  00E1bc83900000||A0x0|00
+00 1bc83900830 , |0x0x00000000001bc8397ffe81bc83680000, |0x000x00000001bc839800000|1bc83680830 , 990x%0|0 0 0E0|1bc836ffff0A, |0x
+0 0 0|00x001bc83700000000|0 1bc83e0000099|%|  0xE000|0A0|1bc83e00830
+,  0x0000 0|1bc83e00a300x, 00x0000000001bc83e800001bc83b00000|| 0x 0000%00|1bc83b00830 ,  0xE0|0A0|00
+1bc83b1e560 ,  0x|000x0000001bc83b800000|0 1bc83d8000023|%0x|000 00 1bc83d80830E, |0x00A|
+0 0 0|1bc83dffff80x, 00x0000000001bc83a000001bc83e00000||0x 0990%0|0  0E1bc83a00830|A, |0x
+0  0|00x000001bc83a7fff80, 00x1bc83d000000|00x0000001bc83a800000|0 1bc83d0083099, %0x|00 00 0E1bc83d7fff8|, A0x|00
+0 0 0|1bc83d800000x|0 0990%0|0 1bc83b80000 |E0x|0A0|
+0 0 0|1bc83b808300x, 0000x0001bc83c800000|00x0000001bc83bfffd80, 1bc83c808300x, 000x00000001bc83c000000|1bc83cfffe8 , 990x%00|0 0S10|1bc83d00000A|| T99
+% |   
+EFatal error|: Ajava.lang.OutOfMemoryError|: 
+Could not allocate an aligned heap chunk  
+
+Fatal error: java.lang.OutOfMemoryError: Could not allocate an aligned heap chunk
